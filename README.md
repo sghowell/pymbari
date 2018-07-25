@@ -17,7 +17,7 @@ Includes functions for:
 - potential temperature
 - pressure
 
-Includes MKL and CUDA (via apache mxnet)acceleration options (Coming soon!)
+Includes MKL and CUDA (via apache mxnet) acceleration options (Coming soon!)
 
 ## Requirements
 - numpy (>=1.14.x)
@@ -32,7 +32,6 @@ Includes MKL and CUDA (via apache mxnet)acceleration options (Coming soon!)
 
 ## Usage
 ```python
-import numpy as np
 from pymbari import depth, n2sat, o2sat
 from pymbari.sample_data import SampleData
 
