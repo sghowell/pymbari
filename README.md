@@ -33,10 +33,14 @@ Includes MKL and CUDA (via apache mxnet)acceleration options (Coming soon!)
 ## Usage
 ```python
 import numpy as np
-from pymbari import depth, n2sat, o2sat, sample_data
+from pymbari import depth, n2sat, o2sat
+from pymbari.sample_data import SampleData
 
 
-conductivity, pressure, salinity, temperature = sample_data
+conductivity = SampleData.conductivity
+pressure = SampleData.pressure
+salinity = SampleData.salinity
+temperature = SampleData.temperature
 
 d = depth(pressure, (-36.3453, 23.2342))
 n2 = n2sat(salinity, temperature)
