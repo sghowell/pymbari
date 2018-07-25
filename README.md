@@ -1,5 +1,5 @@
 # pymbari
-A Python 3 port of the MBARI (Monterey Bay Aquarium Research Institute) oceanography Matlab library
+A Python 3 port of the MBARI (Monterey Bay Aquarium Research Institute) oceanography Matlab library (some of which is a port of various WHOI code).
 
 Simple Python functions for performing a variety of oceanographic calculations.
 
@@ -16,6 +16,8 @@ Includes functions for:
 - depth
 - potential temperature
 - pressure
+
+Includes MKL and CUDA (via apache mxnet)acceleration options (Coming soon!)
 
 ## Requirements
 - numpy (>=1.14.x)
